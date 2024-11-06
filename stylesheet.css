@@ -1,0 +1,105 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+div{
+    height: 700px;
+    width: 375px;
+    background-image: url(afbeeldingen/achtergrondsite3.png);
+    background-repeat: no-repeat;
+   
+}
+
+header img {
+    max-width: 375px;
+}
+main {
+    font-size: 14px;
+    margin-bottom: 10em;
+}
+
+p {
+    margin: 2em;
+}
+
+.sections-homepagina{
+    background-color: #275a6b;
+    padding: 1em;
+    margin: 2em;
+    padding-bottom: 2em;
+}
+.sections-homepagina p{
+    color: white;
+    margin-bottom: 2em;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.sections-homepagina a{
+    color: black;
+    text-decoration: none;
+    background-color: #ece42f;
+    padding: 0.75em;
+    border-radius: 10px;
+}
+
+h1 {
+    background-color: #275a6b;
+    color: white;
+    font-size: 18px;
+    padding-left: 2em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+h2{
+    font-size: 16px;
+    margin-left: 2em;
+    margin-top: 1em;
+}
+
+.tekst-illustratie {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.tekst-illustratie img {
+    max-height: 200px;
+    max-width: 150px;
+
+}
+article img {
+    max-width: 40vw;
+    max-height: 60vh;
+    margin-left: 2em;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 0;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border:#275a6b, solid;
+    background-color: white;
+}
+
+ul a {
+    text-decoration: none;
+    color: black;
+}
+a img {
+    width: 60px;
+    height: 60px;
+}
+nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
